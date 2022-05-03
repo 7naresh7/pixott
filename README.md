@@ -47,4 +47,4 @@ To-do list:
 
 ## License
 
-This project uses the following license: <7naresh7>.
+All the technologies used in this project is open source.
