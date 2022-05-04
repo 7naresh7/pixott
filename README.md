@@ -5,9 +5,7 @@
 
 Pix is an imaginary “Over The Top” (OTT) platform. It is an app built as a console-based application using Java, JDBC and MySQL database. It has the layout consists of Login, Sign up and Exit options.
 For login, user input will be collected from console and JDBC connection will be established to fetch the user details and allows user to login.
-If user details are valid, layout options will consist of Top 5 Movies, Show History and WishList. Each options entered will establish JDBC connection and displays the fetched details from DAO.
-For signup, user's mobile number, user name and password will be collected and store in a USER table.
-If exit option is chosen, it would stop the application.
+If user details are valid, layout options will consist of Top 5 Movies, Show History and WishList.
 
 ## Technologies Used
 
@@ -19,12 +17,17 @@ If exit option is chosen, it would stop the application.
 
 * Eclipse for Java EE Developers/SpringToolSuite 4
 * MySQL Workbench 8.0
-* MySQL Editor 8.0
+* MySQL Command Line 8.0
 
 ## Features
 
-* User can create an account using PixOTT platoform using their mobile no, user name and password.
+* User can create an account using PixOTT platoform using their mobile number, user name and password.
+* User can view movie list,top five movies,top movie based on year,wishlist,history.
+* user can search movie by name,genre.
 * Favourite movies can be added in a wishlist by user.
+* Admin can change top five movies.
+* Admin make movies  unavailable.
+* Admin can add movies in list.
 * Has admin controller which gives access to update the movie details.
 
 To-do list:
